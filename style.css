@@ -1,0 +1,134 @@
+body {
+  width: 620px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #eee;
+  /* border: 2px solid red; */
+}
+.header {
+  -webkit-box-shadow: 0px 2px 0px 0px rgba(191,191,191,1);
+-moz-box-shadow: 0px 2px 0px 0px rgba(191,191,191,1);
+box-shadow: 0px 2px 0px 0px rgba(191,191,191,1);
+}
+.options {
+  background-color: #05304c;
+  display: flex;
+  height: 50px;
+}
+#selector, #post {
+  display: inline-block;
+  flex-basis: 50%;
+  color: white;
+  padding-top: 15px;
+}
+#selector {
+  padding-right: 40%;
+  font-size: 18px;
+  /* width: 75px; */
+}
+#post {
+  padding-left: 30%;
+}
+
+#fa-size-edit {
+  font-size: 25px;
+  padding-left: 10px;
+}
+img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+textarea {
+  display: inline-block;
+  margin-top: 50px;
+  float: left;
+  border: none;
+  color: #71899e;
+  font-size: 15px;
+  resize: none;
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+#send {
+  font-size: 30px;
+  color: #05304c;
+  margin-top: 40px;
+  margin-right: 21px;
+}
+.photos {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 25px;
+  color: #71899e;
+}
+#camera, #photo {
+  margin-right: 5px;
+}
+.postUnit {
+  margin: 20px;
+  border: 1px solid #ccc;
+  height: 350px;
+}
+.head {
+  width: 100%;
+  height: 100px;
+}
+p {
+  float: left;
+  margin-top: 22px;
+  margin-left: 5px;
+  width: 250px;
+  text-align: left;
+  margin-bottom: 0;
+}
+#commentInfo {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 100;
+  color: #71899e;
+}
+h4 {
+  text-align: left;
+  padding: 40px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  color: #05304c;
+}
+#comment {
+  width: 90%;
+  padding: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 60px;
+  text-align: left;
+  margin: 0;
+  font-size: 16px;
+}
+.controles {
+  float: left;
+  margin: 35px;
+  font-size: 20px;
+}
+#red {
+  color: red;
+}
+#yellow {
+  color: orange;
+}
+#grey {
+  color: grey;
+}
+.reply {
+  text-align: right;
+  width: 95%;
+  margin-top: 150px;
+
+}
+#commentPic {
+  height: 75px;
+  width: 75px;
+  margin: 10px;
+}

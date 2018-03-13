@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>All Feed</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="options">
+        <div id="selector">
+          All Feed <i class="fa fa-caret-down"></i>
+        </div>
+        <div id="post">
+          <i id="fa-size-edit" class="fa fa-edit"></i>
+        </div>
+      </div>
+
+      <div class="post">
+        <img id="userPic" src="logo.jpg" alt="ProfilePic">
+        <textarea id="postArea" name="post" rows="3" cols="50" onfocus="if (this.value=='start posting something...') this.value = ''" onblur="if (this.value=='') this.value = 'start posting something...'">start posting something...</textarea>
+        <i id="send" class="fa fa-paper-plane"></i>
+        <div class="photos">
+          <i id="photo" class="fa fa-image"></i> photos  <span style="display:inline-block; width: 15px;"></span> <i id="camera" class="fa fa-camera"></i> camera
+        </div>
+      </div>
+    </div>
+
+    <div class="body">
+      <div class="postUnit">
+        <div class="head">
+          <img id="commentPic" src="logo.jpg" alt="CommentedUser">
+          <p><b><span id="firstName">Mohamed</span> <span id="lastName">Hesham</span></b> Commented on Session</p>
+          <p id="commentInfo">Software Engineer at eventtus<br><span>10 Hours ago<span></p><br/>
+        </div>
+        <h4>Software Development: Front-End Developmet</h4>
+        <p id="comment">Software Development: Front-End DevelopmetSoftware Development: Front-End DevelopmetSoftware Development: Front-End Developmet
+        Software Development: </p>
+        <div class="controles">
+          <span>3</span> <i id="yellow" class="fa fa-thumbs-up"></i><span style="display:inline-block; width: 25px;"></span> <span>15</span> <i id="red" class="fa fa-heart"></i>
+          <span style="display:inline-block; width: 25px;"></span>
+          <i id="grey" class="fa fa-plus-square"></i>
+        </div>
+        <div class="reply">
+          <i id="reply" class="fa fa-reply"></i>reply
+        </div>
+      </div>
+    </div>
+      <div class="postUnit">
+        <div class="head">
+          <img id="commentPic1" src="logo.jpg" alt="CommentedUser">
+          <p><b><span id="firstName1">Mohamed</span> <span id="lastName1">Hesham</span></b> Commented on Session</p>
+          <p id="commentInfo">Software Engineer at eventtus<br><span>10 Hours ago<span></p><br/>
+        </div>
+        <h4>Software Development: Front-End Developmet</h4>
+        <p id="comment">Software Development: Front-End DevelopmetSoftware Development: Front-End DevelopmetSoftware Development: Front-End Developmet
+        Software Development: </p>
+        <div class="controles">
+          <span>3</span> <i id="yellow" class="fa fa-thumbs-up"></i><span style="display:inline-block; width: 25px;"></span> <span>15</span> <i id="red" class="fa fa-heart"></i>
+          <span style="display:inline-block; width: 25px;"></span>
+          <i id="grey" class="fa fa-plus-square"></i>
+        </div>
+        <div class="reply">
+          <i id="reply" class="fa fa-reply"></i>reply
+        </div>
+      </div>
+    </div>
+      <div class="postUnit">
+        <div class="head">
+          <img id="commentPic2" src="logo.jpg" alt="CommentedUser">
+          <p><b><span id="firstName2">Mohamed</span> <span id="lastName2">Hesham</span></b> Commented on Session</p>
+          <p id="commentInfo">Software Engineer at eventtus<br><span>10 Hours ago<span></p><br/>
+        </div>
+        <h4>Software Development: Front-End Developmet</h4>
+        <p id="comment">Software Development: Front-End DevelopmetSoftware Development: Front-End DevelopmetSoftware Development: Front-End Developmet
+        Software Development: </p>
+        <div class="controles">
+          <span>3</span> <i id="yellow" class="fa fa-thumbs-up"></i><span style="display:inline-block; width: 25px;"></span> <span>15</span> <i id="red" class="fa fa-heart"></i>
+          <span style="display:inline-block; width: 25px;"></span>
+          <i id="grey" class="fa fa-plus-square"></i>
+        </div>
+        <div class="reply">
+          <i id="reply" class="fa fa-reply"></i>reply
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
